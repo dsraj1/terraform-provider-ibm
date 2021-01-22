@@ -16,7 +16,7 @@ resource "ibm_compute_vm_instance" "webapp1" {
   tags                       = ["group:webserver"]
 }
 
-data "resource_group" "group" {
+data "ibm_resource_group" "group" {
   name = "default"
 }
 
