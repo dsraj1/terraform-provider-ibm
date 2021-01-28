@@ -19,3 +19,6 @@ variable "name" {
 }
 
 
+variable "resource_group_id" {
+  default = "0000"
+}
