@@ -10,7 +10,7 @@ resource "ibm_resource_instance" "resource_instance" {
   service           = var.service_type
   plan              = var.plan
   location          = var.location
-  resource_group_id = "${var.resource_group_id}"
+  resource_group_id = var.resource_group_id
   tags              = ["tag1", "tag2"]
 
   parameters = {
