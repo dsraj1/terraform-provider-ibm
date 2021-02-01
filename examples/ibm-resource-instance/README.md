@@ -1,4 +1,3 @@
-test
 # IBM Cloud resource instance example
 
 The following example creates an instance of IBM Cloud resource. Instance could be of any resource, for example cloud object staorage, activity tracker, metrics monitor etc. By specifying the right value to argument `service`, we can provision respective resource instance.
